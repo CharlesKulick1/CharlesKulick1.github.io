@@ -1,0 +1,22 @@
+/* Reset some default styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the header */
+header {
+    background-color: #007BFF;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Add more styles as needed */
