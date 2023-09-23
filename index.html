@@ -1,49 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Informational website for the UCSB DRP, primarily focused on program news." />
-    <meta name="author" content="Charles Kulick" />
-    <title>UCSB DRP</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- Icon-->
-    <link rel="icon" type="image/x-icon" href="assets/ucsb-seal-icon.png" />
-    <!-- Google fonts-->
-    <!-- link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" / -->
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="assets/images/ucsb-seal-icon.png">
+  <title>UCSB DRP</title>
+  <meta name="description" content="UCSB DRP informational website.">
+  <meta name="keywords" content="UCSB DRP mathematics reading research undergrad grad mentor mentee club apply">
+  <meta name="author" content="Charles Kulick">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="aquamarine.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <!-- Script: Make navbar transparent when the document is scrolled to top -->
+  <script src="js/navbar-ontop.js"></script>
+  <!-- Script: Animated entrance -->
+  <script src="js/animate-in.js"></script>
 </head>
-<body>
 
-
-    <nav>
-        <div class="nav-container">
-        <div class="site-name">
-            <a href="index.html" class="site-link">UCSB DRP</a>
+<body class="text-center">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation" style=""> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbar2SupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="mentorprofiles.html">Mentor Profiles</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="timeline.html">2024 Timeline</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="mentees.html">For Mentees</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="mentors.html">For Mentors</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="pastresults.html">Past DRPs</a>
+          </li>
+        </ul>
+        <a class="btn navbar-btn mx-2 btn-outline-primary" href="apply.html">Apply Now</a>
+      </div>
+    </div>
+  </nav>
+  <!-- Cover -->
+  <div class="d-flex align-items-center cover section-parallax py-0" style="	background-image: url(assets/images/863263485.jpg);	background-position: top;	background-size: 100%;	background-repeat: repeat;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12" style="transition: all 0.25s;">
+          <div class="container bg-aquamarine my-5 p-2" style="">
+            <div class="card-body">
+              <h3 class="my-0 m-2 display-4" style="	text-shadow: 0px 0px 4px black;"><b>Welcome to the</b></h3>
+              <h1 class="display-1" style="	text-shadow: 0px 0px 4px black;"><b>UCSB DRP!</b></h1>
+              <h5 class="text-left my-3" style="	text-shadow: 0px 0px 4px black;">The <b>Directed Reading Program (DRP)</b> is a <b>one-on-one mathematics mentoring program</b> in which graduate students or junior faculty members mentor undergrads in reading and research projects.&nbsp;<br><br>A committee of graduate students pairs mentors and undergraduate student participants according to their mutual interests. The pairs work together during the Winter and Spring quarters.&nbsp;<br><br>At the end of the program, mentees present on their work primarily through a large poster session.<br><br>We're proud to support many professional development events throughout the program, with a variety of expert panels. Check out the timeline to see a tentative schedule of this year's events.</h5>
+            </div>
+          </div>
         </div>
-            <ul class="nav-links">
-                <li><a href="timeline.html">Timeline</a></li>
-                <li><a href="mentor-profiles.html">Mentor Profiles</a></li>
-            </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Parallax section -->
+  <div class="py-5 section-aquamarine section-dark" id="register" style="	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));	background-position: top left;	background-size: 100%;	background-repeat: repeat;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 text-md-left text-center" style="">
+          <h1 class="text-white">Apply Now for the 2024 DRP!</h1>
+          <p>Check out this year's mentor profiles and apply to be part of our program! Featuring over 40 unique mentors and fascinating projects from every mathematical discipline, this year is assured to be one to remember.</p>
         </div>
-    </nav>
-    
-    <main>
-
-        <div class="welcome-section">
-            <h2>Welcome to the UCSB DRP!</h2>
-            <p>Placeholder text explaining what the program is about.</p>
+        <div class="align-self-center animate-in-right col-md-3" style="">
+          <a href="mentorprofiles.html" class="btn btn-lg btn-light my-3 button-outline-primary btn-outline-primary">Mentor Profiles</a>
         </div>
-
-        <section class="award-winners-section">
-            <h2>2023 Poster Award Winners</h2>
-            <p>Placeholder content for award winners.</p>
-        </section>
-        
-
-    </main>
-    <footer>
-        <!-- Add footer content here -->
-    </footer>
+        <div class="align-self-center animate-in-right col-md-2" style="">
+          <a href="apply.html" class="btn btn-lg btn-light my-3 button-outline-primary btn-outline-primary">Apply Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 cover" style="	background-image: url(assets/images/IMG_1481.jpg);	background-position: top left;	background-size: 100%;	background-repeat: repeat;">
+    <div class="container my-5 bg-light p-4">
+      <div class="row mx-auto">
+        <div class="col-md-12">
+          <h1 class="mb-3" style="">We are pleased to announce the winners of the 2023 DRP Poster Awards!</h1>
+          <h4 class="">&nbsp;Three award categories feature four deserving posters this year:</h4>
+          <h5 class="text-left"><br><b>People's Choice Award for Best Poster:</b>&nbsp;<br><br>Quantum Advantages Over Classical Cryptography<br><i>Ponokela DeMarzo and Natalya Rodriguez, mentored by Sanjay Kumar</i><br><br><b>Mentor's Choice Award for Best Poster:&nbsp;</b><br><br>Mathematics of General Relativity<br><i>Connor Lindsay, mentored by Patrick Vecera</i><br><br><b>Outstanding Poster Award (tie):</b>&nbsp;<br><br>Parameters Estimation of Cox-Ingersoll-Ross<br><i>Jiayue Chen, mentored by Jimmie Adriazola</i><br><br>P-colorability: Not Your Typical Knot Invariant<br><i>Miao Lei, Kriteen Shrestha, and Cindy Zhao, mentored by Marcos Reyes</i><br><br></h5>
+          <h4 class="">Congratulations to all of our 2023 Award Winners!</h4>
+          <a href="pastresults.html" class="btn btn-outline-primary btn-lg m-2">Check out all of our posters!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="text-md-left text-center p-4 bg-dark text-light">
+    <div class="container">
+      <div class="row">
+        <div class="my-3 col-lg-6 col-md-6">
+          <h3>DRP is sponsored by:</h3>
+          <ul class="">
+            <li class="text-muted">DRP Network</li>
+            <li class="text-muted">UCSB Mathematics Department</li>
+            <li class="text-muted">Office of Undergraduate Education</li>
+            <li class="text-muted">Center for Science and Engineering Partnerships at UCSB</li>
+          </ul>
+        </div>
+        <div class="my-3 col-lg-6">
+          <h3>Contact Us:</h3>
+          <p class="text-muted">Email any questions or inquires to drp@math.ucsb.edu. We will be in contact with you promptly!</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- JavaScript dependencies -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- Script: Smooth scrolling between anchors in the same page -->
+  <script src="js/smooth-scroll.js"></script>
 </body>
+
 </html>
