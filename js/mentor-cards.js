@@ -160,6 +160,56 @@ const mentors = [
             "Theoretical CS (Turing machines, complexity theory, algorithms, cryptography, error correction)"
         ]
     },
+    
+    {
+        name: "Christian Hong",
+        projectTag: "Analysis, Applied",
+        researchArea: "Analysis, Applied Mathematics",
+        website: "",
+        researchDescription: "Partial Differential Equations, Dynamical Systems, Analysis",
+        projects: [
+            "Fourier series / Transform, Dispersive equations, Specific PDE such as KdV / BBM / Camassa-Holm equation"
+        ]
+    },
+    
+    {
+        name: "Daniel Ralston",
+        projectTag: "Applied",
+        researchArea: "Applied Mathematics",
+        website: "",
+        researchDescription: "Right now, I like probability and it's applications in applied mathematics.  In particular, I've recently been interested in the two (unrelated) topics: stochastic calculus and Bayesian methods.",
+        projects: [
+            "Two ideas I have in mind:",
+            "A reading in financial mathematics, maybe covering some stochastic calculus/binomial models for pricing equity derivatives -- a book I have in mind is Mark Joshi's The Concepts and Practice of Mathematical Finance",
+            "A reading in Bayesian Inference and Information Theory -- for this, one book I like is David MacKay's Information Theory, Inference, and Learning Algorithms. "
+        ]
+    },
+    
+    {
+        name: "Connor Marrs",
+        projectTag: "Analysis, Geometry",
+        researchArea: "Analysis, Geometry",
+        website: "",
+        researchDescription: "I'm interested in the interplay between geometry and analysis. Sometimes studying random walks or differential equations on a space can tell you exciting things about the space itself, and sometimes hard problems in analysis are resolved by turning to geometry. That intersection is what really excites me.",
+        projects: [
+            "Basics of Information and Coding Theory, for example at the level of \"Information & Coding Theory\" by Jones and Jones. Alternatively, something in Geometric Group Theory at the level of \"Groups, Graphs, and Trees\" by John Meier."
+        ]
+    },
+    
+    {
+        name: "Alex Bisnath",
+        projectTag: "Algebra, Geometry, Topology",
+        researchArea: "Algebra, Analysis, Geometry, Topology",
+        website: "",
+        researchDescription: "Mathematical Physics, Algebraic Topology, Algebraic Combinatorics, Representation Theory",
+        projects: [
+            "",
+            "The Knot Book",
+            "Topology by Munkres", 
+            "A First Course in Representation Theory by Fulton-Harris",
+            "Introduction to Representation Theory by Etingof"
+        ]
+    },
     // Add more mentors as they apply
 ];
 
