@@ -129,7 +129,9 @@ const mentors = [
         website: "https://web.math.ucsb.edu/~charleskulick/",
         researchDescription: "I've been working on some learning theory projects recently. My academic focus is Gaussian Processes, sparsification, and assorted machine learning topics.",
         projects: [
-            "I don't have any good ideas yet, I'll update this once I plan some more."
+            "Hello, reader! I've been a DRP mentor twice, first for a cryptography focused project and then for an AI/POMDP/safety focused project. I really enjoyed both, and I've learned a good bit about what works and what doesn't. So for this year I'd be interested in revisiting either of those topics! I tend to dive into random topics along the way, so we'd also learn about many things adjacent to the field. In particular, here are the two ideas:",
+            "Learning theory, jumping through some papers, finding the right place to branch off and explore other topics as needed.",
+            "Cryptography and steganography, the study of encrypting things in ways both obvious and unnoticable. We'd learn enough to construct RSA, then learn a bit of theoretical computer science, then jump into interesting tricks of steganography. (As a bonus, I've steganographically hidden a phrase in my mentor profile. Try to find it if you'd like a puzzle - you'll be able to find it easily enough by the end of this DRP.)"
         ]
     },
     {
@@ -208,6 +210,32 @@ const mentors = [
             "Topology by Munkres", 
             "A First Course in Representation Theory by Fulton-Harris",
             "Introduction to Representation Theory by Etingof"
+        ]
+    },
+    {
+        name: "Sam Sehayek",
+        projectTag: "Geometry, Topology, Combinatorics",
+        researchArea: "Geometry, Topology, Combinatorics",
+        website: "Ssehayek.weebly.com",
+        researchDescription: "My research interests can be broadly defined as the investigation of topological, geometric, and combinatorial objects (especially polytopes). The main topic I study is Geometric Group Theory especially through the lens of embedded combinatorial structures.",
+        projects: [
+            "",
+            "Lectures on Polytopes by Ziegler",
+            "Selected papers on Parking Functions",
+            "Finite Reflection Groups by Grove and Benson"
+        ]
+    },
+    {
+        name: "Marcos Reyes",
+        projectTag: "Algebra, Number Theory, Topology",
+        researchArea: "Algebra, Number Theory, Topology",
+        website: "",
+        researchDescription: "I am interested in Elliptic curves and in particular the parity conjecture. I am also interested in Lie group, Lie algebras and algebraic groups. ",
+        projects: [
+            "",
+            "One possible project is to read \"Rational points on Elliptic Curves\" by Silverman and Tate. The project would be to create an algorithm, in python, to compute the torsion of an elliptic curve over the rationals.",
+            "Another project is to look at \"An introduction to Lie Algebras\" by Erdmann and Wildon. The main goal would be to understand basic Lie Theory and construct dynkin diagrams.",
+            "Lastly, we can look at Fermat's last theorem but for matrices."
         ]
     },
     // Add more mentors as they apply
