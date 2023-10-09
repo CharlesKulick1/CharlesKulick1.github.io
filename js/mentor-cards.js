@@ -236,6 +236,26 @@ const mentors = [
             "Lastly, we can look at Fermat's last theorem but for matrices."
         ]
     },
+    {
+        name: "Katherine Merkl",
+        projectTag: "Algebra, Topology",
+        researchArea: "Algebra, Topology",
+        website: "https://web.math.ucsb.edu/~kmerkl",
+        researchDescription: "Low-dimensional Topology and hyperbolic geometry.",
+        projects: [
+            "We could read an introduction to topology or hyperbolic geometry."
+        ]
+    },
+    {
+        name: "Fabio Ricci",
+        projectTag: "Analysis, Geometry",
+        researchArea: "Analysis, Geometry",
+        website: "",
+        researchDescription: "Geometric analysis, comparison geometry, optimal transport, pde on manifolds.",
+        projects: [
+            "Riemannian geometry, optimal transport and geometry."
+        ]
+    },
     // Add more mentors as they apply
 ];
 
