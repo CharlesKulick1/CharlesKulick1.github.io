@@ -1,21 +1,6 @@
 // Mentor data
 const mentors = [
     {
-        name: "Melody Molander",
-        projectTag: "Algebra, Analysis, Topology",
-        researchArea: "Algebra, Analysis, Topology",
-        website: "http://melodymolander.com",
-        researchDescription: "My research is in Quantum Algebra and Topology, which means I like drawing pictures of knots and braids.",
-        projects: [
-            "With my DRP group I would be interested in reading about one of these topics. The book we choose very much depends on the preference of the group as well as their mathematical background.",
-            "Category Theory in Context by Riehl",
-            "Some later chapters in Abstract Algebra by Dummit and Foote (i.e., Ch 10, 11.5, Ch 12, and Ch 17)",
-            "The Knot Book by Adams",
-            "Introduction to Lie Algebras by Erdmann & Wildon",
-            "A Friendly Approach to Functional Analysis by Sasane"
-        ]
-    },
-    {
         name: "Zach Wagner",
         projectTag: "Analysis, Applied",
         researchArea: "Analysis, Applied Mathematics",
@@ -254,6 +239,28 @@ const mentors = [
         researchDescription: "Geometric analysis, comparison geometry, optimal transport, pde on manifolds.",
         projects: [
             "Riemannian geometry, optimal transport and geometry."
+        ]
+    },
+    {
+        name: "Mitchell Jubeir",
+        projectTag: "Algebra, Other",
+        researchArea: "Algebra, Topology",
+        website: "",
+        researchDescription: "I am currently interested in applying algebraic methods to topological problems. One such application is constructing homological knot invariants.",
+        projects: [
+            "The use of algebra in cryptography: Development of Cryptography from Caesar Cyphers to a Post-quantum world",
+            "Intro Textbook: Simon Rubinstein Salzedo Cryptography",
+            "Other books: The Code Book by Simon Singh"
+        ]
+    },
+    {
+        name: "Nico Gonzalez",
+        projectTag: "Applied",
+        researchArea: "Applied Mathematics, Numerical Analysis",
+        website: "",
+        researchDescription: "Solving differential equations",
+        projects: [
+            "Boundary Conditions"
         ]
     },
     // Add more mentors as they apply
