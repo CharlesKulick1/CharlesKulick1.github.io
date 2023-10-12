@@ -263,6 +263,35 @@ const mentors = [
             "Boundary Conditions"
         ]
     },
+    {
+        name: "Benedict Lee",
+        projectTag: "Algebra, Topology",
+        researchArea: "Algebra, Topology",
+        website: "",
+        researchDescription: "Geometric Group Theory/Topology",
+        projects: [
+            "",
+            "Groups, Graphs and Trees (Meier)",
+            "Introduction to Circle Packing (Stephenson)",
+            "Hyperplane arrangements",
+            "I am also open to reading anything that the student is interested in."
+        ]
+    },
+    {
+        name: "Debin Liu",
+        projectTag: "Geometry",
+        researchArea: "Geometry",
+        website: "",
+        researchDescription: "Differential geometry; analytic torsion; complex geometry; mirror symmetry; mathematical physics",
+        projects: [
+            "",
+            "Differential Topology: \"Differential Forms in Algebraic Topology\" by Raoul Bott, Loring W. Tu",
+            "Complex Geometry: \"Principles of Algebraic Geometry\" by Phillip Griffith, Joseph Harris",
+            "Mirror Symmetry: \"Mirror Symmetry\" by Kentaro Hori, Sheldon Katz, etc.",
+            "Seiberg-Witten theory: \"Lecture Notes on Seiberg-Witten Invariants\" by John Moore",
+            "Any other topics in geometry my mentees suggest."
+        ]
+    },
     // Add more mentors as they apply
 ];
 
