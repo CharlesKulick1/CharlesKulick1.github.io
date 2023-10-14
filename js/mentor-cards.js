@@ -111,7 +111,7 @@ const mentors = [
         name: "Charles Kulick",
         projectTag: "Applied",
         researchArea: "Applied Mathematics",
-        website: "https://web.math.ucsb.edu/~charleskulick/",
+        website: "", //"https://web.math.ucsb.edu/~charleskulick/",
         researchDescription: "I've been working on some learning theory projects recently. My academic focus is Gaussian Processes, sparsification, and assorted machine learning topics.",
         projects: [
             "Hi! This DRP will focus on cryptography and steganography, the study of encrypting things in ways both obvious and unnoticeable. We'd learn enough to construct RSA, then learn a bit of theoretical computer science, then jump into interesting tricks of steganography through the lens of information theory. This probably would take about half of our time; after that, we can learn coding theory as a natural extension, or dive deeper into theoretical computer science and explore some results both famous and recent. I believe this is a great way to get familiar with reading math, and a fantastic introduction to some fundamental ideas from different areas of study! I’m very open to tailoring our project specifically to the interests of our group. In years past, I’ve always been compelled to explore any random cool math along the way, so it’s guaranteed we’d learn some interesting things. I look forward to this experience! (As a bonus, I’ve hidden a message steganographically in this blurb. Try to find it!)",
@@ -294,17 +294,17 @@ const mentors = [
     },
     {
         name: "John White",
-        projectTag: "",
+        projectTag: "Algebra, Geometry, Topology",
         researchArea: "Algebra, Geometry, Topology",
         website: "",
         researchDescription: "I am interested in anything differential geometry or algebraic topology flavored.",
         projects: [
-            "Morse theory, differential geometry up to de rham cohomology, `Category Theory in Context” if the student wants to learn some category theory"
+            "Morse theory, differential geometry up to de rham cohomology, \"Category Theory in Context\" if the student wants to learn some category theory."
         ]
     },
     {
         name: "Ricky Lee",
-        projectTag: "",
+        projectTag: "Geometry, Topology",
         researchArea: "Geometry, Topology",
         website: "",
         researchDescription: "Hyperbolic Geometry, Low-Dimensional Topology",
@@ -318,7 +318,7 @@ const mentors = [
     },
     {
         name: "Therese Basa Landry",
-        projectTag: "",
+        projectTag: "Algebra, Analysis, Geometry, Topology",
         researchArea: "Analysis, Geometry, Operator Algebras, Noncommutative Geometry (Quantum Analogues of Riemannian Geometry, Quantum Analogues of Compact Metric Spaces), Fractal Geometry, Functional Analysis",
         website: "",
         researchDescription: "As a noncommutative fractal geometer, I look for new expressions of the geometry of a fractal through the lens of noncommutative geometry. At the quantum scale, the wave function of a particle, but not its path in space, can be studied. Riemannian methods often rely on smooth paths to encode the geometry of a space. Noncommutative geometry generalizes analysis on manifolds by replacing this requirement with operator algebraic data. These same \"point-free\" techniques can also be used to study the geometry of classically pathological spaces like fractals. By expanding the formalism of fractal geometry to include the mathematical language of quantum theory, developments in noncommutative fractal geometry give both mathematicians and physicists the tools to gain insights about quantum behaviors in solids and any new materials made possible by these phenomena.",
