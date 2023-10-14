@@ -114,7 +114,7 @@ const mentors = [
         website: "", //"https://web.math.ucsb.edu/~charleskulick/",
         researchDescription: "I've been working on some learning theory projects recently. My academic focus is Gaussian Processes, sparsification, and assorted machine learning topics.",
         projects: [
-            "Hi! This DRP will focus on cryptography and steganography, the study of encrypting things in ways both obvious and unnoticeable. We'd learn enough to construct RSA, then learn a bit of theoretical computer science, then jump into interesting tricks of steganography through the lens of information theory. This probably would take about half of our time; after that, we can learn coding theory as a natural extension, or dive deeper into theoretical computer science and explore some results both famous and recent. I believe this is a great way to get familiar with reading math, and a fantastic introduction to some fundamental ideas from different areas of study! I’m very open to tailoring our project specifically to the interests of our group. In years past, I’ve always been compelled to explore any random cool math along the way, so it’s guaranteed we’d learn some interesting things. I look forward to this experience! (As a bonus, I’ve hidden a message steganographically in this blurb. Try to find it!)",
+            "Hi! This DRP will focus on cryptography and steganography, thе study of encrypting things in ways both obvious and unnoticeablе. Wе'd lеarn еnough to construct RSA, then lеarn a bit of thеoretical computer sciencе, then jump into interеsting tricks of stеganography through the lens of information thеory. This probably would takе about half of our time; after that, wе can lеarn coding thеory as a natural extеnsion, or dive dеepеr into thеorеtical computer sciencе and еxplore somе rеsults both famous and recent. I beliеvе this is a great way to gеt familiar with rеading math, and a fantastic introduction to some fundamental ideas from differеnt areas of study! I’m vеry opеn to tailoring our projеct specifically to thе interests of our group. In years past, I’vе always bеen compеlled to explorе any random cool math along the way, so it’s guarantееd we’d lеarn somе intеrеsting things. I look forward to this expеriеnce! (Bonus puzzlе: I’vе hid a mеssage in this blurb. Try to find it!)",
         ]
     },
     {
@@ -197,7 +197,7 @@ const mentors = [
     },
     {
         name: "Sam Sehayek",
-        projectTag: "Geometry, Topology, Combinatorics",
+        projectTag: "Geometry, Topology, Other",
         researchArea: "Geometry, Topology, Combinatorics",
         website: "Ssehayek.weebly.com",
         researchDescription: "My research interests can be broadly defined as the investigation of topological, geometric, and combinatorial objects (especially polytopes). The main topic I study is Geometric Group Theory especially through the lens of embedded combinatorial structures.",
@@ -330,6 +330,16 @@ const mentors = [
             "Quantum Metrics on Graphs/Finite Graph Approximations of Fractals",
             "Quantum Topological Insulators",
             "Noncommutative Geometry and Noncommutative Solenoids"
+        ]
+    },
+    {
+        name: "Will Sheppard",
+        projectTag: "Analysis, Applied",
+        researchArea: "Analysis, Applied Mathematics, Foundations, Physics, Chemistry",
+        website: "",
+        researchDescription: "I use large-scale simulation techniques to inform the design of novel materials. My interests lie all along the bridge from mathematical foundations of physical processes to data collection and scientific computing.",
+        projects: [
+            "Possible projects might explore the foundations of a physical theory or a phenomenon in nature, such as hurricanes, earthquakes, electromagnetism, crystallography, phase transitions etc. A possible text: A Khinchin's Mathematical Foundations of Statistical Mechanics."
         ]
     },
     //{
