@@ -292,6 +292,66 @@ const mentors = [
             "Any other topics in geometry my mentees suggest."
         ]
     },
+    {
+        name: "John White",
+        projectTag: "",
+        researchArea: "Algebra, Geometry, Topology",
+        website: "",
+        researchDescription: "I am interested in anything differential geometry or algebraic topology flavored.",
+        projects: [
+            "Morse theory, differential geometry up to de rham cohomology, `Category Theory in Context” if the student wants to learn some category theory"
+        ]
+    },
+    {
+        name: "Ricky Lee",
+        projectTag: "",
+        researchArea: "Geometry, Topology",
+        website: "",
+        researchDescription: "Hyperbolic Geometry, Low-Dimensional Topology",
+        projects: [
+            "",
+            "Milnor: Topology from a Differentiable Viewpoint",
+            "Purcell: Hyperbolic Knot Theory",
+            "Margalit: Office Hours with a Geometric Group Theorist",
+            "We can figure out other possibilities as well, I am open to many different projects. The above reading list contains just a few good texts that come to mind at the moment."
+        ]
+    },
+    {
+        name: "Therese Basa Landry",
+        projectTag: "",
+        researchArea: "Analysis, Geometry, Operator Algebras, Noncommutative Geometry (Quantum Analogues of Riemannian Geometry, Quantum Analogues of Compact Metric Spaces), Fractal Geometry, Functional Analysis",
+        website: "",
+        researchDescription: "As a noncommutative fractal geometer, I look for new expressions of the geometry of a fractal through the lens of noncommutative geometry. At the quantum scale, the wave function of a particle, but not its path in space, can be studied. Riemannian methods often rely on smooth paths to encode the geometry of a space. Noncommutative geometry generalizes analysis on manifolds by replacing this requirement with operator algebraic data. These same \"point-free\" techniques can also be used to study the geometry of classically pathological spaces like fractals. By expanding the formalism of fractal geometry to include the mathematical language of quantum theory, developments in noncommutative fractal geometry give both mathematicians and physicists the tools to gain insights about quantum behaviors in solids and any new materials made possible by these phenomena.",
+        projects: [
+            "",
+            "Quantum Metrics on Discrete Spaces",
+            "The Rauzy Gasket",
+            "Bratteli Diagrams, Quantum Topological Computation, and Markov Processes",
+            "Quantum Metrics on Graphs/Finite Graph Approximations of Fractals",
+            "Quantum Topological Insulators",
+            "Noncommutative Geometry and Noncommutative Solenoids"
+        ]
+    },
+    //{
+    //   name: "Alexander Sabater",
+    //    projectTag: "",
+    //    researchArea: "Applied Mathematics",
+    //    website: "",
+    //    researchDescription: "Numerical analysis",
+    //    projects: [
+    //        "Mathematical music theory."
+    //    ]
+    //},
+    //{
+    //    name: "Qing Zhang",
+    //    projectTag: "",
+    //    researchArea: "",
+    //    website: "",
+    //    researchDescription: "TBA",
+    //    projects: [
+    //        ""
+    //    ]
+    //},
     // Add more mentors as they apply
 ];
 
