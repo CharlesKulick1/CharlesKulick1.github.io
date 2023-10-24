@@ -342,6 +342,20 @@ const mentors = [
             "Possible projects might explore the foundations of a physical theory or a phenomenon in nature, such as hurricanes, earthquakes, electromagnetism, crystallography, phase transitions etc. A possible text: A Khinchin's Mathematical Foundations of Statistical Mechanics."
         ]
     },
+    {
+        name: "Elie Abdo",
+        projectTag: "Analysis",
+        researchArea: "Analysis",
+        website: "https://sites.google.com/view/elie-abdo-website/",
+        researchDescription: "Mathematical fluid dynamics, harmonic analysis, partial differential equations.",
+        projects: [
+            "",
+            "Introduction to singular integral operators",
+            "Introduction to the mathematical theory of Navier-Stokes equations",
+            "Introduction to several complex variables",
+            "Mathematical studies of electroconvection and electrodiffusion"
+        ]
+    },
     //{
     //   name: "Alexander Sabater",
     //    projectTag: "",
