@@ -356,6 +356,30 @@ const mentors = [
             "Mathematical studies of electroconvection and electrodiffusion"
         ]
     },
+    {
+        name: "Qing Zhang",
+        projectTag: "Algebra, Topology",
+        researchArea: "Algebra, Topology",
+        website: "https://zhangqing2513.github.io/",
+        researchDescription: "My research focuses on construction and classification of braided tensor categories, as well as their connections with quantum invariants.",
+        projects: [
+            "Introduction to braid groups; Introduction to tensor categories."
+        ]
+    },
+    {
+        name: "Jihye Lee",
+        projectTag: "Applied, Geometry",
+        researchArea: "Applied Mathematics, Geometry",
+        website: "",
+        researchDescription: "Differential Geometry, Riemannian Geometry, Geomstats, Computational Geometry",
+        projects: [
+            "Stiefel manifold:",
+            "Learn basic differential geometry stuff: manifold, tangent space, exp map, geodesic, distance on manifold (surface)",
+            "Find geodesic and distance bounds on Stiefel manifold.",
+            "Algorithms to compute logarithms on Stiefel manifold (Computational geometry)",
+            "Understand codes for Stiefel manifold in Geomstats."
+        ]
+    },
     //{
     //   name: "Alexander Sabater",
     //    projectTag: "",
@@ -364,16 +388,6 @@ const mentors = [
     //    researchDescription: "Numerical analysis",
     //    projects: [
     //        "Mathematical music theory."
-    //    ]
-    //},
-    //{
-    //    name: "Qing Zhang",
-    //    projectTag: "",
-    //    researchArea: "",
-    //    website: "",
-    //    researchDescription: "TBA",
-    //    projects: [
-    //        ""
     //    ]
     //},
     // Add more mentors as they apply
