@@ -380,16 +380,16 @@ const mentors = [
             "Understand codes for Stiefel manifold in Geomstats."
         ]
     },
-    //{
-    //   name: "Alexander Sabater",
-    //    projectTag: "",
-    //    researchArea: "Applied Mathematics",
-    //    website: "",
-    //    researchDescription: "Numerical analysis",
-    //    projects: [
-    //        "Mathematical music theory."
-    //    ]
-    //},
+    {
+       name: "Alexander Sabater",
+        projectTag: "Applied",
+        researchArea: "Applied Mathematics",
+        website: "",
+        researchDescription: "Numerical analysis",
+        projects: [
+            "Mathematical music theory."
+        ]
+    },
     // Add more mentors as they apply
 ];
 
