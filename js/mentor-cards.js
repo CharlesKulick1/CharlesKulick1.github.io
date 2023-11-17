@@ -145,7 +145,6 @@ const mentors = [
             "Theoretical CS (Turing machines, complexity theory, algorithms, cryptography, error correction)"
         ]
     },
-    
     {
         name: "Christian Hong",
         projectTag: "Analysis, Applied",
@@ -156,7 +155,16 @@ const mentors = [
             "Fourier series / Transform, Dispersive equations, Specific PDE such as KdV / BBM / Camassa-Holm equation"
         ]
     },
-    
+    {
+        name: "Alan Raydan",
+        projectTag: "Applied",
+        researchArea: "Applied Mathematics, Machine Learning, Probability",
+        website: "",
+        researchDescription: "I research reinforcement learning applications to mean field game theory, but I'm open to any projects involving machine learning or probability.",
+        projects: [
+            "Reinforcement learning, neural rendering, deep generative modeling, distributional learning."
+        ]
+    },
     {
         name: "Daniel Ralston",
         projectTag: "Applied",
