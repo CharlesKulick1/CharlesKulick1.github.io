@@ -1,71 +1,6 @@
 // Mentor data
 const mentors = [
-    {
-        name: "Zach Wagner",
-        projectTag: "Analysis, Applied",
-        researchArea: "Analysis, Applied Mathematics",
-        website: "https://zachwagner.github.io/",
-        researchDescription: "Mathematics of Electron Structure Theory, Applications of Machine Learning and Data Science to PDEs, Machine Assisted Proofs",
-        projects: [
-            "Data driven solutions to PDEs with applications to quantum chemistry, theory of PDEs with applications to quantum chemistry, formalizing basic theoretical mathematics using Lean."
-        ]
-    },
-    {
-        name: "Pranav Arrepu",
-        projectTag: "Analysis, Applied",
-        researchArea: "Analysis, Applied Mathematics",
-        researchDescription: "Interested in analysis.",
-        projects: [
-            "One could work through a reading course on fluid mechanics."
-        ]
-    },
-    {
-        name: "Troy Kling",
-        projectTag: "Algebra, Topology",
-        researchArea: "Algebra, Topology",
-        website: "https://www.troy.kli.ng/",
-        researchDescription: "I am broadly interested in all areas of topology. My research mainly focuses on algebraic topology (key words: homotopy, homology, cohomology) and occasionally has some geometric flavor to it. I use rational homotopy theory and algebraic gadgetry to prove results about topological spaces.",
-        projects: [
-            "In general, I am very happy to tailor projects to individual students. Here are a few ideas for projects based on your level of mathematical expertise, but I'm happy to explore other topics in topology as well!",
-            "For students with a background in linear algebra but not topology, we could study the basics of point-set topology and build up to something called rational homology -- a framework that lets you rigorously analyze how many holes a space has, without having to worry about annoying things like torsion. You will finally be able to tell your friends how many holes a pair of pants has!",
-            "For students with some background in group theory but not topology, we could work through an introductory textbook on the subject, building up to the fundamental group and seeing some unusual proofs along the way (topological proofs of, for example, the infinitude of primes, the fundamental theory of algebra, the fact that every subgroup of a free group is free, etc.).",
-            "For students who have taken MATH 111A and MATH 145, we could take a deeper dive into algebraic topology by working through Hatcher's textbook. This could involve a range of topics, including homotopy theory, homology theory, and all of the cool algebraic gadgetry you get along the way. Fun proofs encountered along the way might include Brouwer's fixed point theorem, the Borsuk-Ulam Theorem, and the ham sandwich theorem! We could even discuss cohomology if you've taken MATH 111B.",
-            "For more advanced students, we could take a look at rational homotopy theory, why it's useful, and how it simplifies the absolute chaos found in the higher homotopy groups of topological spaces."
-        ]
-    },
-    {
-        name: "Kyle Hansen",
-        projectTag: "Other",
-        researchArea: "Geometry, Topology",
-        website: "",
-        researchDescription: "I study aperiodic tilings of nilpotent spaces through a topological lens. Generally, I enjoy discrete problems, and puzzles where a clever shift in perspective can unveil a whole world of understanding. ",
-        projects: [
-            "We will select an interesting problem from the American Mathematical Monthly (or other publisher of fun/interesting math problems), with the goal of submitting a well-written solution for publication in the magazine. If we have multiple students, each student will select a problem on their own, and during group meetings, each student will have time to report on their progress, and solicit ideas from their peers. "
-        ]
-    },
-    {
-        name: "Quinn Kolt",
-        projectTag: "Algebra",
-        researchArea: "Algebra, Topology",
-        website: "https://web.math.ucsb.edu/~kolt/",
-        researchDescription: "I am primarily interested in quantum algebra/topology. I specifically study tensor categories, Hopf algebras and their generalizations, and topological quantum field theories. These topics have immense applications throughout math, physics, and quantum computing.",
-        projects: [
-            "My DRP will be an introduction to categories, Hopf algebras, and categorical algebra using \"Hopf Algebras and Their Generalizations from a Category Theoretical Point of View\" by Gabriella Böhm. I request that you have taken/are taking (fall/winter) 111AB. In the first few weeks, we will focus on filling in the remaining prerequisites of the text. <br /> <br /> Groups are to Cartesian products of sets as Hopf algebras are to tensor products of vector spaces. This can be made precise in the language of category theory. The key feature of categorical algebra is seeing how these sorts of analogies extend to other monoidal categories."
-        ]
-    },
-    {
-        name: "Choomno Moos",
-        projectTag: "Algebra, Applied",
-        researchArea: "Algebra, Geometry, Topology",
-        website: "",
-        researchDescription: "I am interested in math of all types, however, my core research interest is the topology of 3- and 4-dimensional manifolds.",
-        projects: [
-            "Here are a few plans for projects that I have thought about, but I am by no means limited to these. I have some other ideas for projects in topology and algebra that may be preferable.",
-            "Computational group theory project. Our goal will be to write a program to determine the isomorphism classes of groups up to a given order. It has been experimentally indicated that most finite groups up to isomorphism are p-groups; this is where most of our time will be spent. The primary thrust of this project will be to study and implement Newman and O'Brien's p-group generation algorithm. <br /> <br /> Topics of study: Group actions, Sylow theory, subnormal series, group extensions, representation theory of finite groups, permutation groups, p-group theory. <br /> <br /> Possible references: Paolo Aluffi, Algebra: Chapter 0 - Joseph Rotman, An Introduction to the Theory of Groups - Martin Isaacs, Finite Group Theory - Martin Isaacs, Character Theory of Finite Groups - Martin Hall, Theory of Groups - Susan McKay, Finite p-groups - Newman and O'Brien's paper <br />",
-            "Algebraic graph theory. Graph theory is an area abundant with possible projects, so my intention here would be to figure out a project along the way. For example, it would be fun to take a crack at constructing a 57-regular, girth 5 Moore graph, or to say something about cores of strongly regular graphs. <br /> <br /> Topics of study: Transitivity and regularity of graphs, generalized polygons, graph homomorphisms, spectral graph theory. <br /> <br /> Possible references: Reinhard Diestel, Graph theory - Godsil and Royle, Algebraic Graph Theory - Norman Biggs, Algebraic Graph Theory <br />",
-            "Applied math project. The qualitative behavior of systems defined by non-normal operators and matrices is poorly explained by spectral methods alone. Examples can be found, for example, in arrays of linear asymmetrically coupled oscillators, where the transient response of a system is difficult to determine without direct simulation. This is pertinent to a variety of practical matters, e.g., the control of platoons of self-propelled vehicles, and in mathematical biology towards understanding flocking behavior. One answer to this shortcoming is proferred by Trefethen et al's theory of pseudospectra. Understanding some of this theory is the goal of this project. <br /> <br /> Topics of study: If needed, we will cover the necessary background in linear algebra and functional analysis. Otherwise, we only need to study material directly pertinent to the project. <br /> <br /> Possible references: Hirsch, Smale, and Devaney, Differential Equations, Dynamical Systems, and an Introduction to Chaos - Carl Meyer, Matrix Analysis and Applied Linear Algebra - Alberto Bressan, Lecture Notes on Functional Analysis: With Applications to Linear Partial Differential Equations - Trefethen and Embree, Spectra and Pseudospectra: The Behavior of Nonnormal Matrices and Operators - Various papers and notes"
-        ]
-    },
+
     {
         name: "Yusen Xia",
         projectTag: "Geometry",
@@ -80,324 +15,242 @@ const mentors = [
         ]
     },
     {
-        name: "Rusiru Gambheera",
-        projectTag: "Algebra, Number Theory",
-        researchArea: "Algebra, Number Theory",
-        website: "https://sites.google.com/view/rusiru-gambheera/home",
-        researchDescription: "I do research on Algebraic Number Theory, more specifically, Iwasawa Theory.",
-        projects: [
+        name: "Arthur Jiang",
+         projectTag: "Geometry, Other",
+         researchArea: "Topics in GR and QFT",
+         website: "https://arthurjphysics.github.io/",
+         researchDescription: "Numerical analysis",
+         projects: [
+             "",
+             "Either Lee book on manifold theory",
+             "MTW",
+             "Gravitation"
+         ]
+     },
+     {
+        name: "Hongjie David Zeng",
+         projectTag: "Analysis, Algebra, Geometry",
+         researchArea: "Algebra, Analysis, Geometry, Number Theory, Several Complex Variables, Complex Geometry, Algebraic Geometry",
+         website: "",
+         researchDescription: "I have always been fascinated by the elegance of complex analysis and its applications (e.g. number theory, physics). In fact, it was complex analysis which led me to complex geometry, a subject which I am currently learning about. Complex geometry studies geometric structures which are described by complex numbers, such as complex manifolds and complex algebraic varieties. It is a highly attractive branch of modern mathematics which interacts with various other fields (differential, algebraic, and arithmetic geometry; sting theory), and is a great example of unity in mathematics.",
+         projects: [
             "",
-            "Introduction to Analytic Number Theory - Book by Tom M. Apostol",
-            "Matrix Groups for Undergraduates - Book by Kristopher Tapp",
-            "Algebraic Curves and Riemann Surfaces for Undergraduates : The Theory of the Donut - Book by Anil Nerode and Noam Greenberg  "
-        ]
-    },
-    {
-        name: "Mychelle Parker",
-        projectTag: "Number Theory",
-        researchArea: "Number Theory",
-        website: "https://web.math.ucsb.edu/~mychelleparker/",
-        researchDescription: "The math I have been studying recently involves Elliptic Curves, Modular Forms, Selmer Groups, and L-functions.",
-        projects: [
-            "Depending on a students background potential books to read with mentees include:",
-            "A friendly Introduction to Number Theory by Joseph H. Silverman",
-            "Intro to Metric & Topological Spaces by Sutherland",
-            "Rational Points on Elliptic Curves by Silverman and Tate",
-            "Algebraic Number Theory by J.S. Milne",
-            "​Open to other books or topics of a similar nature that sound interesting."
-        ]
-    },
-    {
-        name: "Charles Kulick",
-        projectTag: "Applied",
-        researchArea: "Applied Mathematics",
-        website: "", //"https://web.math.ucsb.edu/~charleskulick/",
-        researchDescription: "I've been working on some learning theory projects recently. My academic focus is Gaussian Processes, sparsification, and assorted machine learning topics.",
-        projects: [
-            "Hi! This DRP will focus on cryptography and steganography, thе study of encrypting things in ways both obvious and unnoticeablе. Wе'd lеarn еnough to construct RSA, then lеarn a bit of thеoretical computer sciencе, then jump into interеsting tricks of stеganography through the lens of information thеory. This probably would takе about half of our time; after that, wе can lеarn coding thеory as a natural extеnsion, or dive dеepеr into thеorеtical computer sciencе and еxplore somе rеsults both famous and recent. I beliеvе this is a great way to gеt familiar with rеading math, and a fantastic introduction to some fundamental ideas from differеnt areas of study! I’m vеry opеn to tailoring our projеct specifically to thе interests of our group. In years past, I’vе always bеen compеlled to explorе any random cool math along the way, so it’s guarantееd we’d lеarn somе intеrеsting things. I look forward to this expеriеnce! (Bonus puzzlе: I’vе hid a mеssage in this blurb. Try to find it!)",
-        ]
-    },
-    {
-        name: "Xuyang Yu",
-        projectTag: "Other",
-        researchArea: "Physics: Quantum Gravity",
-        website: "",
-        researchDescription: "Research on quantum gravity. Physics topics I have learned/am learning include quantum field theory, general relativity, conformal field theory, string theory etc. Math topics I have learned/am learning: point-set topology, smooth manifolds, Lie algebra, etc.",
-        projects: [
+             "Complex Analysis/ Several Complex Variables: <br /><br /> Complex Analysis by Lars Ahlfors <br /> Functions of One Complex Variable, I, II, by John B. Conway <br /> Analytic Functions of Several Complex Variables, by Robert Gunning, Hugo Rossi <br /><br />",
+            "Riemann surfaces/Algebraic Curves: <br /> <br /> Algebraic Curves and Riemann Surfaces by Rick Miranda <br /><br />",
+            "Complex Geometry: <br /> <br /> Principles of Algebraic Geometry by Phillip Griffiths, Joe Harris <br /> Introduction of Complex Manifolds by John M. Lee",
+         ]
+     },
+     {
+        name: "Nayeong Kim",
+         projectTag: "Algebra, Applied, Geometry, Topology",
+         researchArea: "Algebra, Topology, Machine Learning",
+         website: "https://www.nayeong.dev/",
+         researchDescription: "I'm interested in Representation Theory, especially interested in Tensor Categories and their application in TQFT. Since I was majored in Computer Science when I was undergrad, I'm also interested in ML or algorithms.",
+         projects: [
             "",
-            "Nakahara: Geometry, Topology, and Physics (Whole book)",
-            "Theodore Frankel: The Geometry of Physics (Emphasis on Ch13-22)",
-            "Or physics books based on mentees' interest."
-        ]
-    },
-    {
+            "Introduction to Logic, Spring 2024, KAIST: We are going to cover some course materials uploaded in <a href='https://github.com/hongseok-yang/logic24'>this repository.</a>",
+            "Introduction to Representation Theory, Etingof: We are going to cover representation theory of finite groups.",
+            "Introduction to Lie Groups and Lie Algebras, Kirillov: See <a href='https://www.math.stonybrook.edu/~kirillov/mat552/liegroups.pdf'>this resource.</a>",
+            "Doing some Kaggle Project using linear/logistic regression, basic clustering algorithms etc."
+         ]
+     },
+     {
+        name: "Choomno Moos",
+         projectTag: "Algebra, Applied, Topology, Other",
+         researchArea: "Algebra, Geometry, Topology",
+         website: "",
+         researchDescription: "My research area is quantum topology and algebra. However, I have broad recreational interests and as such have a lot of room for accomodation.",
+         projects: [
+             "",
+             "Knot theory",
+             "Computational group theory",
+             "Categorical logic",
+             "I can also be compelled to do an \"applied\" project"
+         ]
+     },
+     {
+        name: "Edward Chen",
+         projectTag: "Algebra, Geometry, Other",
+         researchArea: "Algebra, Geometry, Physics",
+         website: "https://sheepness.github.io/",
+         researchDescription: "I'm interested in mathematical physics and other maths subfields related to physics, mainly those leaning towards algebra",
+         projects: [
+             "",
+             "Mathematical gauge theory",
+             "Lie theory/representation theory of lie algebras",
+             "Supersymmetry"
+         ]
+     },
+     {
+        name: "Jack Pfaffinger",
+         projectTag: "Analysis, Applied",
+         researchArea: "Analysis, Applied Mathematics",
+         website: "",
+         researchDescription: "Machine learning, applied analysis, computing",
+         projects: [
+             "",
+             "Random matrix theory",
+             "Theoretical machine learning",
+             "Stochastic calculus",
+             "Generating functions in combinatorics"
+         ]
+     },
+     {
+        name: "Jeremy Khoo",
+         projectTag: "Applied, Other",
+         researchArea: "Algebra, Topology",
+         website: "",
+         researchDescription: "I am currently looking at a family of non-isotopic embeddings of a lower-dimensional sphere into a higher-dimensional sphere called Haefliger knots, and trying to find geometric bounds on an integer-valued invariant of these knots. The work that I've done so far has drawn from rational homotopy theory, vector bundles and Thom spaces, and other aspects of differential topology and differential geometry. <br /><br /> I'm also interested in a few problems in algebra and graph theory, though these are more casual interests.",
+         projects: [
+             "",
+             "Lattice-based cryptography (using the book \"An Introduction to Mathematical Cryptography\", Hoffstein et al, specifically Chapter 7 on Lattices and Cryptography).",
+             "The Game of Cops and Robbers on Graphs (book by Bonato and Nowakowski on a 2-player game played on connected graphs)",
+             "\"How Bad is Selfish Routing?\" (paper by Roughgarden and Tardos). Mostly a starting point to talk about Braess's Paradox."
+         ]
+     },
+     {
+        name: "Andrew Ortegaray",
+         projectTag: "Algebra, Topology",
+         researchArea: "Algebra, Topology",
+         website: "",
+         researchDescription: "I am broadly interested in algebra/topology and occasionally quantum variations.",
+         projects: [
+             "",
+             "Reading through The Knot Book",
+             "Reading through Topology by Munkres",
+             "Fourier Analysis on Finite Abelian Groups and Number Theoretic Transforms",
+             "Persistent Homology and Implementations"
+         ]
+     },
+     {
+        name: "Alfredo Ramirez",
+         projectTag: "Topology",
+         researchArea: "Topology",
+         website: "",
+         researchDescription: "Geometric Group Theory and Topology in general",
+         projects: [
+             "I was thinking of doing a project from \"Office Hours with a Geometric Group Theorist\" but open to other topology topics like knot theory and such."
+         ]
+     },
+     {
+        name: "Rhea Palak Bakshi",
+         projectTag: "Topology",
+         researchArea: "Topology",
+         website: "http://rheapalakbakshi.com",
+         researchDescription: "My research interests are in quantum topology, low-dimensional topology, and knot theory. I focus primarily on the study of skein modules and skein algebras of 3-manifolds and their connections to algebraic geometry, hyperbolic geometry, categorification, Topological Quantum Field Theories, Jones-Wenzl projectors, and cluster algebras. More recently I have taken up interest in skein lasagna modules, which are generalisations of the Khovanov and Khovanov-Rozansky homology theories to 4-manifolds with links in their boundary. I also study self-distributive structures, and their generalisations, whose axioms are motivated by the Reidemeister moves in knot theory. Quandles and racks are prime examples of such structures.",
+         projects: [
+            "Potential topics for the DRP include:<br /> <ul class='project-list'> <li>Knot Polynomials </li> <li>What is a skein module/algebra?</li> <li>Basics of 3-manifold topology</li> <li>What is a Topological Quantum Field Theory?</li> <li>What are the Witten-Reshetikhin-Turaev 3-manifold invariants?</li> <li>What are skein lasagna modules?</li> <li>The 4D smooth Poincaré conjecture</li> <li>Khovanov homology</li> <li>Jones-Wenzl idempotents and the coloured Jones polynomials</li></ul> These topics make for nice projects in the Winter and Spring quarters. The goal is to get the essence of quantum topology."
+         ]
+     },
+     {
         name: "Sawyer Dobson",
-        projectTag: "Algebra, Applied, Number Theory, Other",
-        researchArea: "Algebra, Analysis, Applied Mathematics, Geometry, Number Theory, Topology, Theoretical CS",
-        website: "",
-        researchDescription: "I'm a first year student with a wide range of interests. I really like quantum computing, mathematical logic, number theory, representation theory, and theoretical computer science.",
-        projects: [
-            "Some possible topics include:",
-            "Quantum computing (error correction, algorithms, complexity theory)",
-            "Mathematical logic (ordinals and cardinals, axiom of choice, models, forcing, continuum hypothesis, incompleteness theorems)",
-            "Number theory (arithmetic functions, möbius inversion, pentagonal numbers, two-square theorem, phi function, finite fields, quadratic reciprocity)",
-            "Representation theory (group rings, semisimple algebras, multilinear algebra, character theory, induced representations)",
-            "Theoretical CS (Turing machines, complexity theory, algorithms, cryptography, error correction)"
-        ]
-    },
-    {
-        name: "Christian Hong",
-        projectTag: "Analysis, Applied",
-        researchArea: "Analysis, Applied Mathematics",
-        website: "",
-        researchDescription: "Partial Differential Equations, Dynamical Systems, Analysis",
-        projects: [
-            "Fourier series / Transform, Dispersive equations, Specific PDE such as KdV / BBM / Camassa-Holm equation"
-        ]
-    },
-    {
-        name: "Alan Raydan",
-        projectTag: "Applied",
-        researchArea: "Applied Mathematics, Machine Learning, Probability",
-        website: "",
-        researchDescription: "I research reinforcement learning applications to mean field game theory, but I'm open to any projects involving machine learning or probability.",
-        projects: [
-            "Reinforcement learning, neural rendering, deep generative modeling, distributional learning."
-        ]
-    },
-    {
-        name: "Daniel Ralston",
-        projectTag: "Applied",
-        researchArea: "Applied Mathematics",
-        website: "",
-        researchDescription: "Right now, I like probability and it's applications in applied mathematics.  In particular, I've recently been interested in the two (unrelated) topics: stochastic calculus and Bayesian methods.",
-        projects: [
-            "Two ideas I have in mind:",
-            "A reading in financial mathematics, maybe covering some stochastic calculus/binomial models for pricing equity derivatives -- a book I have in mind is Mark Joshi's The Concepts and Practice of Mathematical Finance",
-            "A reading in Bayesian Inference and Information Theory -- for this, one book I like is David MacKay's Information Theory, Inference, and Learning Algorithms. "
-        ]
-    },
-    
-    {
-        name: "Connor Marrs",
-        projectTag: "Analysis, Geometry",
-        researchArea: "Analysis, Geometry",
-        website: "",
-        researchDescription: "I'm interested in the interplay between geometry and analysis. Sometimes studying random walks or differential equations on a space can tell you exciting things about the space itself, and sometimes hard problems in analysis are resolved by turning to geometry. That intersection is what really excites me.",
-        projects: [
-            "Basics of Information and Coding Theory, for example at the level of \"Information & Coding Theory\" by Jones and Jones. Alternatively, something in Geometric Group Theory at the level of \"Groups, Graphs, and Trees\" by John Meier."
-        ]
-    },
-    
-    {
-        name: "Alex Bisnath",
-        projectTag: "Algebra, Geometry, Topology",
-        researchArea: "Algebra, Analysis, Geometry, Topology",
-        website: "",
-        researchDescription: "Mathematical Physics, Algebraic Topology, Algebraic Combinatorics, Representation Theory",
-        projects: [
-            "",
-            "The Knot Book",
-            "Topology by Munkres", 
-            "A First Course in Representation Theory by Fulton-Harris",
-            "Introduction to Representation Theory by Etingof"
-        ]
-    },
-    {
-        name: "Sam Sehayek",
-        projectTag: "Geometry, Topology, Other",
-        researchArea: "Geometry, Topology, Combinatorics",
-        website: "Ssehayek.weebly.com",
-        researchDescription: "My research interests can be broadly defined as the investigation of topological, geometric, and combinatorial objects (especially polytopes). The main topic I study is Geometric Group Theory especially through the lens of embedded combinatorial structures.",
-        projects: [
-            "",
-            "Lectures on Polytopes by Ziegler",
-            "Selected papers on Parking Functions",
-            "Finite Reflection Groups by Grove and Benson"
-        ]
-    },
-    {
+         projectTag: "Other",
+         researchArea: "Algebra, Topology, CS theory",
+         website: "",
+         researchDescription: "I am interested in topological quantum computing, quantum error correction, and classical/quantum complexity theory.",
+         projects: [
+             "I am planning on mentoring a project on classical complexity theory. We will formalize what it means for a problem to be solvable by an algorithm, and give examples of problems that are unsolvable. Then, we'll define complexity classes such as P, NP, PSPACE, L, and NL, and give examples of complete problems for each class. We'll discuss the famous P != NP conjecture and use oracle Turing machines to see one reason why proving or disproving it is so difficult. I plan on using Michael Sipser's Introduction to the Theory of Computation (3rd edition) as the main reference."
+         ]
+     },
+     {
+        name: "Christine Alar",
+         projectTag: "Number Theory",
+         researchArea: "Number Theory",
+         website: "",
+         researchDescription: "Iwasawa theory, elliptic curves",
+         projects: [
+             "Introductions to Iwasawa theory and elliptic curves."
+         ]
+     },
+     {
         name: "Marcos Reyes",
-        projectTag: "Algebra, Number Theory, Topology",
-        researchArea: "Algebra, Number Theory, Topology",
-        website: "",
-        researchDescription: "I am interested in Elliptic curves and in particular the parity conjecture. I am also interested in Lie group, Lie algebras and algebraic groups. ",
-        projects: [
-            "",
-            "One possible project is to read \"Rational points on Elliptic Curves\" by Silverman and Tate. The project would be to create an algorithm, in python, to compute the torsion of an elliptic curve over the rationals.",
-            "Another project is to look at \"An introduction to Lie Algebras\" by Erdmann and Wildon. The main goal would be to understand basic Lie Theory and construct dynkin diagrams.",
-            "Lastly, we can look at Fermat's last theorem but for matrices."
-        ]
-    },
-    {
-        name: "Katherine Merkl",
-        projectTag: "Algebra, Topology",
-        researchArea: "Algebra, Topology",
-        website: "https://web.math.ucsb.edu/~kmerkl",
-        researchDescription: "Low-dimensional Topology and hyperbolic geometry.",
-        projects: [
-            "We could read an introduction to topology or hyperbolic geometry."
-        ]
-    },
-    {
-        name: "Fabio Ricci",
-        projectTag: "Analysis, Geometry",
-        researchArea: "Analysis, Geometry",
-        website: "",
-        researchDescription: "Geometric analysis, comparison geometry, optimal transport, pde on manifolds.",
-        projects: [
-            "Riemannian geometry, optimal transport and geometry."
-        ]
-    },
-    {
-        name: "Mitchell Jubeir",
-        projectTag: "Algebra, Other",
-        researchArea: "Algebra, Topology",
-        website: "",
-        researchDescription: "I am currently interested in applying algebraic methods to topological problems. One such application is constructing homological knot invariants.",
-        projects: [
-            "The use of algebra in cryptography: Development of Cryptography from Caesar Cyphers to a Post-quantum world",
-            "Intro Textbook: Simon Rubinstein Salzedo Cryptography",
-            "Other books: The Code Book by Simon Singh"
-        ]
-    },
-    {
-        name: "Nico Gonzalez",
-        projectTag: "Applied",
-        researchArea: "Applied Mathematics, Numerical Analysis",
-        website: "",
-        researchDescription: "Solving differential equations",
-        projects: [
-            "Boundary Conditions"
-        ]
-    },
-    {
-        name: "Benedict Lee",
-        projectTag: "Algebra, Topology",
-        researchArea: "Algebra, Topology",
-        website: "",
-        researchDescription: "Geometric Group Theory/Topology",
-        projects: [
-            "",
-            "Groups, Graphs and Trees (Meier)",
-            "Introduction to Circle Packing (Stephenson)",
-            "Hyperplane arrangements",
-            "I am also open to reading anything that the student is interested in."
-        ]
-    },
-    {
-        name: "Debin Liu",
-        projectTag: "Geometry",
-        researchArea: "Geometry",
-        website: "",
-        researchDescription: "Differential geometry; analytic torsion; complex geometry; mirror symmetry; mathematical physics",
-        projects: [
-            "",
-            "Differential Topology: \"Differential Forms in Algebraic Topology\" by Raoul Bott, Loring W. Tu",
-            "Complex Geometry: \"Principles of Algebraic Geometry\" by Phillip Griffith, Joseph Harris",
-            "Mirror Symmetry: \"Mirror Symmetry\" by Kentaro Hori, Sheldon Katz, etc.",
-            "Seiberg-Witten theory: \"Lecture Notes on Seiberg-Witten Invariants\" by John Moore",
-            "Any other topics in geometry my mentees suggest."
-        ]
-    },
-    {
-        name: "John White",
-        projectTag: "Algebra, Geometry, Topology",
-        researchArea: "Algebra, Geometry, Topology",
-        website: "",
-        researchDescription: "I am interested in anything differential geometry or algebraic topology flavored.",
-        projects: [
-            "Morse theory, differential geometry up to de rham cohomology, \"Category Theory in Context\" if the student wants to learn some category theory."
-        ]
-    },
-    {
-        name: "Ricky Lee",
-        projectTag: "Geometry, Topology",
-        researchArea: "Geometry, Topology",
-        website: "",
-        researchDescription: "Hyperbolic Geometry, Low-Dimensional Topology",
-        projects: [
-            "",
-            "Milnor: Topology from a Differentiable Viewpoint",
-            "Purcell: Hyperbolic Knot Theory",
-            "Margalit: Office Hours with a Geometric Group Theorist",
-            "We can figure out other possibilities as well, I am open to many different projects. The above reading list contains just a few good texts that come to mind at the moment."
-        ]
-    },
-    {
-        name: "Therese Basa Landry",
-        projectTag: "Algebra, Analysis, Geometry, Topology",
-        researchArea: "Analysis, Geometry, Operator Algebras, Noncommutative Geometry (Quantum Analogues of Riemannian Geometry, Quantum Analogues of Compact Metric Spaces), Fractal Geometry, Functional Analysis",
-        website: "",
-        researchDescription: "As a noncommutative fractal geometer, I look for new expressions of the geometry of a fractal through the lens of noncommutative geometry. At the quantum scale, the wave function of a particle, but not its path in space, can be studied. Riemannian methods often rely on smooth paths to encode the geometry of a space. Noncommutative geometry generalizes analysis on manifolds by replacing this requirement with operator algebraic data. These same \"point-free\" techniques can also be used to study the geometry of classically pathological spaces like fractals. By expanding the formalism of fractal geometry to include the mathematical language of quantum theory, developments in noncommutative fractal geometry give both mathematicians and physicists the tools to gain insights about quantum behaviors in solids and any new materials made possible by these phenomena.",
-        projects: [
-            "",
-            "Quantum Metrics on Discrete Spaces",
-            "The Rauzy Gasket",
-            "Bratteli Diagrams, Quantum Topological Computation, and Markov Processes",
-            "Quantum Metrics on Graphs/Finite Graph Approximations of Fractals",
-            "Quantum Topological Insulators",
-            "Noncommutative Geometry and Noncommutative Solenoids"
-        ]
-    },
-    {
-        name: "Will Sheppard",
-        projectTag: "Analysis, Applied",
-        researchArea: "Analysis, Applied Mathematics, Foundations, Physics, Chemistry",
-        website: "",
-        researchDescription: "I use large-scale simulation techniques to inform the design of novel materials. My interests lie all along the bridge from mathematical foundations of physical processes to data collection and scientific computing.",
-        projects: [
-            "Possible projects might explore the foundations of a physical theory or a phenomenon in nature, such as hurricanes, earthquakes, electromagnetism, crystallography, phase transitions etc. A possible text: A Khinchin's Mathematical Foundations of Statistical Mechanics."
-        ]
-    },
-    {
-        name: "Elie Abdo",
-        projectTag: "Analysis",
-        researchArea: "Analysis",
-        website: "https://sites.google.com/view/elie-abdo-website/",
-        researchDescription: "Mathematical fluid dynamics, harmonic analysis, partial differential equations.",
-        projects: [
-            "",
-            "Introduction to singular integral operators",
-            "Introduction to the mathematical theory of Navier-Stokes equations",
-            "Introduction to several complex variables",
-            "Mathematical studies of electroconvection and electrodiffusion"
-        ]
-    },
-    {
+         projectTag: "Algebra, Number Theory, Other",
+         researchArea: "Algebra, Analysis, Number Theory, Topology",
+         website: "",
+         researchDescription: "I am interested in elliptic curves over number fields. In particular the parity and other invariants of an elliptic curve. I want to use machine learning to conjecture some new invariants/useful data.",
+         projects: [
+             "",
+             "One project would be to study elliptic curves over the rationals and try to find some new data. It would be great if you knew some machine learning. Only Math 8 knowledge is required but some group theory would be helpful. Two good books are: <br /><br /> Rational Points on Elliptic Curves by Silverman and Tate <br />Elliptic Curves, Modular Forms, and Their L-functions by Álvaro Lozano-Robledo<br /><br />",
+             "The second project would be to study the Spectrum of a ring R. An understanding of topology and ring theory is needed. Two great books on this subject are: <br /><br />The Geometry Of Schemes by Eisenbud and Harris<br />Algebraic Geometry 1 From Algebraic Varieties to Schemes by Kenji Ueno"
+         ]
+     },
+     {
+        name: "Kyle Hansen",
+         projectTag: "Algebra, Topology, Other",
+         researchArea: "Geometry, Topology, Discrete Mathematics",
+         website: "https://web.math.ucsb.edu/~kylehansen/",
+         researchDescription: "How does abstract \"algebraic\" information get translated into quantifiable \"geometric\" data? What are the patterns lurking behind seemingly chaotic behavior? And how do the answers in Euclidean space change if we look at nilpotent spaces?",
+         projects: [
+             "",
+             "Problem Solving \"Seminar\" (requires 3-4 students for a successful program) — communally solve a problem from a math journal, and write up a solution (or more!) for possible publication",
+             "(Nilpotent) Lie Groups — learn about the relationship between algebraic and geometric complexity",
+             "Percolation — find out why percolation on lattices is hard in dimensions 3 and higher, and model some percolation in this setting."
+         ]
+     },
+     {
         name: "Qing Zhang",
-        projectTag: "Algebra, Topology",
-        researchArea: "Algebra, Topology",
-        website: "https://zhangqing2513.github.io/",
-        researchDescription: "My research focuses on construction and classification of braided tensor categories, as well as their connections with quantum invariants.",
-        projects: [
-            "Introduction to braid groups; Introduction to tensor categories."
-        ]
-    },
-    {
-        name: "Jihye Lee",
-        projectTag: "Applied, Geometry",
-        researchArea: "Applied Mathematics, Geometry",
-        website: "",
-        researchDescription: "Differential Geometry, Riemannian Geometry, Geomstats, Computational Geometry",
-        projects: [
-            "Stiefel manifold:",
-            "Learn basic differential geometry stuff: manifold, tangent space, exp map, geodesic, distance on manifold (surface)",
-            "Find geodesic and distance bounds on Stiefel manifold.",
-            "Algorithms to compute logarithms on Stiefel manifold (Computational geometry)",
-            "Understand codes for Stiefel manifold in Geomstats."
-        ]
-    },
-    {
-       name: "Alexander Sabater",
-        projectTag: "Applied",
-        researchArea: "Applied Mathematics",
-        website: "",
-        researchDescription: "Numerical analysis",
-        projects: [
-            "Mathematical music theory."
-        ]
-    },
+         projectTag: "Algebra, Topology",
+         researchArea: "Algebra, Topology",
+         website: "https://zhangqing2513.github.io",
+         researchDescription: "Tensor categories, topological quantum computation, braid group representation, low-dimensional topology.",
+         projects: [
+             "Ribbon finite tensor categories. Invariants of finite tensor categories."
+         ]
+     },
+     {
+        name: "Mary Zimmerman",
+         projectTag: "Geometry, Topology",
+         researchArea: "Algebra, Topology",
+         website: "",
+         researchDescription: "I'm still mostly undecided but leaning towards topology.",
+         projects: [
+             "I'm thinking either The Knot Book, or maybe something geometry related like \"The Four Pillars of Geometry\"."
+         ]
+     },
+     {
+        name: "Benedict Lee",
+         projectTag: "Algebra, Geometry, Topology",
+         researchArea: "Algebra, Geometry, Topology",
+         website: "",
+         researchDescription: "I mainly work in Geometric Group Theory which tries to understand groups based on how they act on spaces. I am also interested in most things related to algebra and topology.",
+         projects: [
+             "Here are some books that we can read:",
+             "Hyperplane Arrangements (Dimca) ",
+             "Unitary Reflection Groups (Taylor and Lehrer)",
+             "Geometric and topological aspects of Coxeter groups and buildings (Thomas)",
+             "Regular solids and isolated singularities (Lamotke)"
+         ]
+     },
+     {
+        name: "Michael Keith",
+         projectTag: "Analysis, Applied",
+         researchArea: "Analysis, Applied Mathematics",
+         website: "",
+         researchDescription: "I'm interested in mathematical biology. My research focuses on the mathematical modelling of DNA ejection in the P4 bacteriophage. Principal mathematical methods include continuum mechanics (liquid crystal models) and cryo-electron microscopy (cryo-EM).",
+         projects: [
+             "A key topic that arises in liquid crystal modelling is the Calculus of Variations since we often seek to minimise an energy when determining a protein structure. Thus, we will study the essentials of the Calculus of Variations with the goal of presenting an application of it. We will use a book titled \"Topics in Applied Mathematics and Modeling\" to develop the basics of the theory."
+         ]
+     },
+     {
+        name: "Evan Tufte",
+         projectTag: "Analysis, Applied, Other",
+         researchArea: "Analysis, Applied Mathematics",
+         website: "",
+         researchDescription: "I study quantum mechanics--usually models for how electrons flow through metals. The math I use to do this is some blend of functional analysis and partial differential equations. I also enjoy probability, measure theory, and differential geometry.",
+         projects: [
+             "One topic I think would be a lot of fun is the calculus of variations--we could read about some classical examples (brachistochrone, catenary, etc.), learn about techniques for solving calculus of variation problems/figuring out if solutions exist, then study some more modern examples. Two other possible topics are stochastic processes or quantum mechanics."
+         ]
+     },
+     {
+        name: "Mychelle Parker",
+         projectTag: "Algebra, Number Theory, Topology",
+         researchArea: "Number Theory",
+         website: "https://web.math.ucsb.edu/~mychelleparker/",
+         researchDescription: "The math I have been studying recently involves Elliptic Curves, Modular Forms, Selmer Groups, and L-functions.",
+         projects: [
+             "Possible books including:<ul class='project-list'> <li>A Friendly Introduction to Number Theory by Joseph H. Silverman</li><li>Intro to Metric & Topological Spaces by Sutherland</li><li>Rational Points on Elliptic Curves by Silverman and Tate</li><li>Algebraic Number Theory by J.S. Milne</li> </ul>Possible topics from the Arizona Winter School including:<br /> <ul class='project-list'> <li>Abelian varieties over finite fields </li> <li>Elliptic curves with complex multiplication </li> <li>Geometry and arithmetic of moduli spaces of abelian varieties in positive characteristic </li> <li>Symmetries of root systems</li> <li>Local fields</li></ul>"
+         ]
+     }
     // Add more mentors as they apply
 ];
 
