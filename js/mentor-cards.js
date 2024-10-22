@@ -250,6 +250,16 @@ const mentors = [
          projects: [
              "Possible books including:<ul class='project-list'> <li>A Friendly Introduction to Number Theory by Joseph H. Silverman</li><li>Intro to Metric & Topological Spaces by Sutherland</li><li>Rational Points on Elliptic Curves by Silverman and Tate</li><li>Algebraic Number Theory by J.S. Milne</li> </ul>Possible topics from the Arizona Winter School including:<br /> <ul class='project-list'> <li>Abelian varieties over finite fields </li> <li>Elliptic curves with complex multiplication </li> <li>Geometry and arithmetic of moduli spaces of abelian varieties in positive characteristic </li> <li>Symmetries of root systems</li> <li>Local fields</li></ul>"
          ]
+     },
+     {
+        name: "Jitendra Rathore",
+         projectTag: "Algebra, Number Theory",
+         researchArea: "Algebra, Number Theory, Algebraic and Arithmetic Geometry, Algebraic K-Theory",
+         website: "https://sites.google.com/view/jitendra-rathore/home",
+         researchDescription: "My mathematical research interests lie in the fields of algebraic geometry, algebraic K-theory, and arithmetic geometry. More specifically, I study various algebraic and arithmetic invariants, such as étale fundamental groups, algebraic K-groups, Brauer groups, Chow groups, and étale cohomology groups.  These are important invariants associated with an algebraic variety and contain significant arithmetic information about the variety. The techniques I use to study these invariants come from algebra, topology, number theory, and algebraic geometry.",
+         projects: [
+             "Potential topics for Reading Projects:<ul class='project-list'> <li> Group Cohomology and Galois Cohomology.</li><li>Algebraic K-groups and Their Connections to Number Theory.</li> <li>Division Rings and the Theory of Brauer Group.</li> <li>Local Class Field Theory</li> <li>Profinite Groups</li> <li>Etale Cohomology Groups</li></ul>Here are a few reference books:<br /> <ul class='project-list'> <li>Introduction to Algebraic K-theory by John Milnor.</li> <li>Central Simple Algebra and Galois Cohomology by Philippe Gille and Tamas Szamuely.</li> <li>Local Fields by J.P. Serre.</li> <li>Profinite Groups by Luis Ribes and Pavel Zalesskii.</li> <li>Etale cohomology by James S. Milne.</li></ul>"
+         ]
      }
     // Add more mentors as they apply
 ];
