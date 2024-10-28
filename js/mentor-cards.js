@@ -260,6 +260,38 @@ const mentors = [
          projects: [
              "Potential topics for Reading Projects:<ul class='project-list'> <li> Group Cohomology and Galois Cohomology.</li><li>Algebraic K-groups and Their Connections to Number Theory.</li> <li>Division Rings and the Theory of Brauer Group.</li> <li>Local Class Field Theory</li> <li>Profinite Groups</li> <li>Etale Cohomology Groups</li></ul>Here are a few reference books:<br /> <ul class='project-list'> <li>Introduction to Algebraic K-theory by John Milnor.</li> <li>Central Simple Algebra and Galois Cohomology by Philippe Gille and Tamas Szamuely.</li> <li>Local Fields by J.P. Serre.</li> <li>Profinite Groups by Luis Ribes and Pavel Zalesskii.</li> <li>Etale cohomology by James S. Milne.</li></ul>"
          ]
+     },
+     {
+        name: "Waqar Shah",
+         projectTag: "Algebra, Number Theory",
+         researchArea: "Number Theory, Representation theory",
+         website: "https://sites.google.com/view/swshah/home",
+         researchDescription: "While I work in Iwasawa theory, my work involves working with objects like Shimura varieties, automorphic representations, Galois representations, reductive algebraic groups, Lie representation theory, complex analytic period integrals etc.",
+         projects: [
+             "Proof of fermat's last theorem in the case of regular primes? Just off the top of my head."
+         ]
+     },
+     {
+        name: "Jihye Lee",
+         projectTag: "Geometry, Topology",
+         researchArea: "Geometry, Topology",
+         website: "https://sites.google.com/view/jihyelee-math/",
+         researchDescription: "Differential geometry",
+         projects: [
+             "We will study how curvature of a space affects topological properties of the given space. To do this, we will learn: <ul class='project-list'> <li> Topology : First fundamental group, Covering space </li> <li> Differential Geometry: Riemannian manifold </li> </ul>  If a student is interested much more in differential geometry side (not topology), then we can try many other things. After we learn Riemannian geometry, we can try to understand how geometric quantities are related to curvature of the given space."
+         ]
+     },
+     {
+        name: "Joel Pion",
+         projectTag: "Algebra, Other",
+         researchArea: "Algebra, Algebraic Geometry, Combinatorics",
+         website: "",
+         researchDescription: "My personal research is in Algebraic Geometry through the perspective of derived categories. In particular I work on categorical resolutions of singularities. I find most mathematics interesting and am willing to think about topics outside my area.",
+         projects: [
+             "Two kinds of projects we could do are:",
+             "Expository: learn about a new area together, i.e. we could do something on lattices, bruhat-tits building, category theory thing etc.",
+             "We can find an \"easy\"-to-approach problem and think about it together. For example I have some thoughts about a paper written about a certain permutation game we could think about."
+         ]
      }
     // Add more mentors as they apply
 ];
