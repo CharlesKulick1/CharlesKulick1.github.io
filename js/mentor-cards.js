@@ -204,7 +204,7 @@ const mentors = [
          website: "",
          researchDescription: "I'm still mostly undecided but leaning towards topology.",
          projects: [
-             "I'm thinking either The Knot Book, or maybe something geometry related like \"The Four Pillars of Geometry\"."
+             "I'm thinking either The Knot Book, or introductory topology."
          ]
      },
      {
