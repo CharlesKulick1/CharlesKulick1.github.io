@@ -48,8 +48,6 @@ const mentors = [
             "Textbook: The Three-Dimensional Navier-Stokes Equations Classical Theory by James C. Robinson, et al. Weak solutions of Euler and Navier-Stokes Equations, Onsager's Conjecture."
          ]
      },
-
-
      {
         name: "Alexander Sabater",
          projectTag: "Applied",
@@ -60,7 +58,6 @@ const mentors = [
             "Group actions and music theory (see Lewin and Fiore on transformational theory), xentonality and theory of dissonance (see Sethares - Tuning, Timbre, Spectrum, Scale and Deriushkin - Set theoretic solution for the tuning problem)."
          ]
      },
-
      {
         name: "Mike Gulas",
          projectTag: "Analysis, Applied",
@@ -71,8 +68,6 @@ const mentors = [
             "Hilbert Spaces, Fluid Mechanics, Applied Functional Analysis, Partial Differential Equations, Differential Geometry and Partial Differential Equations, Stochastic Differential Equations"
          ]
      },
-
-
      {
         name: "Hasan M. El-Hasan",
          projectTag: "Geometry",
@@ -86,8 +81,6 @@ const mentors = [
             "Survey of comparison theorems in Riemannian geometry",
          ]
      },
-
-
      {
         name: "Andrew Ortegaray",
          projectTag: "Algebra, Topology",
@@ -105,8 +98,6 @@ const mentors = [
             "Homological Algebra"
          ]
      },
-
-
      {
         name: "Nayeong Kim",
          projectTag: "Applied, Other",
@@ -120,8 +111,6 @@ const mentors = [
             "Applied Math: Graph Learning. We will learn some concepts in graph learning and simplicial complex framework. References: <a href='https://arxiv.org/abs/2108.06547'>Paper</a>",
          ]
      },
-
-
      {
         name: "Cash Cherry",
          projectTag: "Applied",
@@ -132,8 +121,6 @@ const mentors = [
             "Kernel-based Approximation Methods, following the book Kernel-based Approximation Methods using MATLAB (A copy of the book will be provided). These ideas represent an application of mathematical theory to develop elegant computational methods with a wide range of applications. Depending on student interest and time, we can focus on applications in Inverse Problems, Operator Learning, Numerical Methods for PDEs, or Spatial Statistics, among other areas."
          ]
      },
-
-
      {
         name: "Charles Kulick",
          projectTag: "Applied",
@@ -144,9 +131,6 @@ const mentors = [
             "We'll dive into modern machine learning from a mathematical perspective. I plan to survey recent seminal papers across multiple domains, examining common foundational theoretical frameworks and comparing the performance of various methods. We will place a particular emphasis on the transformer architecture and demystifying the mathematics of its operation. "
          ]
      },
-
-
-
      {
         name: "Clive Chan",
          projectTag: "Geometry",
@@ -160,9 +144,6 @@ const mentors = [
             "Poincare and Sobolev inequalities",
          ]
      },
-
-
-
      {
         name: "Christian Hong",
          projectTag: "Analysis, Applied",
@@ -173,9 +154,6 @@ const mentors = [
             "Fourier Transform / Harmonic Analysis, Perturbation theory, Elliptic PDE, Wavelet theory, PDE in fluid mechanics, Kinetic theory (emphasis on the math)."
          ]
      },
-
-
-
      {
         name: "Kelsey Delk",
          projectTag: "Algebra, Geometry, Topology",
@@ -186,8 +164,6 @@ const mentors = [
             "I was thinking that we could learn about a topic from \"Office Hours with a Geometric Group Theorist\" or I have my thesis from my Master's program that we can look at that studies small cancellation theory, Van Kampen Diagrams, and the word problem. I am also happy with just going through some topics from basic topology, homology, basic geometric group theory. I am pretty flexible with a potential project as long as I am familiar with it."
          ]
      },
-
-
      {
         name: "Jeremy Khoo",
          projectTag: "Algebra, Topology, Other",
@@ -198,8 +174,6 @@ const mentors = [
             "Fair division problems, in particular fair division of rent for a multi-room apartment. A first paper will be Su, \"Rental Harmony: Sperner's Lemma in Fair Division\". We will also consider variations which may include: multiple occupants of the same room (rental harmony with roommates), occupants with budget constraints, or otherwise."
          ]
      },
-
-
      {
         name: "Joel Pion",
          projectTag: "Algebra, Other",
@@ -210,7 +184,6 @@ const mentors = [
             "We could read Huybrechts Fourier Mukai Transforms or we could do a combinatorial research problem involving sensors and signalers."
          ]
      },
-
      {
         name: "Jitendra Rathore",
          projectTag: "Algebra, Number Theory",
@@ -233,8 +206,6 @@ const mentors = [
             "Representation theory of Finite group (Group Theory)."
          ]
      },
-
-
      {
         name: "Meghan Lee",
          projectTag: "Algebra, Number Theory, Other",
@@ -243,6 +214,22 @@ const mentors = [
          researchDescription: "I'm broadly interested in algebra, topology, and number theory. My recent projects have involved elliptic curves, modular curves, and Galois representations, and also computational tools in number theory.",
          projects: [
             "I'm planning to mentor a project on the basic theory of elliptic curves, using the book \"Rational Points on Elliptic Curves\" by Silverman and Tate. Topics will include the group structure of an elliptic curve, the Mordell-Weil Theorem, the Nagell-Lutz Theorem, and Mazur's Theorem. We can also discuss connections to factorization algorithms and cryptography. Advances in computing technology have contributed greatly to this area in the 21st century, so I think it'll be fun to supplement these topics with an introduction to some popular computational resources (including the Python package SageMath, the computer algebra software Magma, and the LMFDB database). No programming experience necessary!"
+         ]
+     },
+    {
+        name: "Rhea Palak Bakshi",
+         projectTag: "Topology",
+         researchArea: "Topology",
+         website: "https://rheapalakbakshi.com",
+         researchDescription: "My research interests are in quantum topology, low-dimensional topology, and knot theory. I focus primarily on the study of skein modules and skein algebras of 3-manifolds and their connections to algebraic geometry, hyperbolic geometry, categorification, Topological Quantum Field Theories, Jones-Wenzl projectors, and cluster algebras. More recently I have taken up an interest in skein lasagna modules, which are generalisations of the Khovanov and Khovanov-Rozansky homology theories to 4-manifolds with links in their boundary. I also study self-distributive structures, and their generalisations, whose axioms are motivated by the Reidemeister moves in knot theory. Quandles and racks are prime examples of such structures.",
+         projects: [
+            "",
+            "Categorification of skein modules",
+            "Quantum groups",
+            "Hyperbolic knot theory",
+            "Braid groups",
+            "SL_n and stated skein modules",
+            "Classical knot theory",
          ]
      }
 
