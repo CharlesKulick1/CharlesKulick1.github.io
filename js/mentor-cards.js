@@ -216,7 +216,7 @@ const mentors = [
             "I'm planning to mentor a project on the basic theory of elliptic curves, using the book \"Rational Points on Elliptic Curves\" by Silverman and Tate. Topics will include the group structure of an elliptic curve, the Mordell-Weil Theorem, the Nagell-Lutz Theorem, and Mazur's Theorem. We can also discuss connections to factorization algorithms and cryptography. Advances in computing technology have contributed greatly to this area in the 21st century, so I think it'll be fun to supplement these topics with an introduction to some popular computational resources (including the Python package SageMath, the computer algebra software Magma, and the LMFDB database). No programming experience necessary!"
          ]
      },
-    {
+     {
         name: "Rhea Palak Bakshi",
          projectTag: "Topology",
          researchArea: "Topology",
@@ -231,8 +231,57 @@ const mentors = [
             "SL_n and stated skein modules",
             "Classical knot theory",
          ]
+     },
+     {
+        name: "Michael Keith",
+         projectTag: "Analysis, Applied",
+         researchArea: "Analysis, Applied Mathematics",
+         website: "",
+         researchDescription: "My research lies at the interface of mathematics and the natural sciences. Our lab studies the packaging of DNA inside of bacteriophages—these are viruses that infect bacteria. On the biological side, I work on creating 3D reconstructions of viral proteins using cryo-electron microscopy (cryo-EM). On the mathematical side, I model the interactions between DNA and ions inside of the bacteriophage capsid. To this aim, I utilise tools from the calculus of variations, numerical analysis, PDEs, and the theory of liquid crystals to derive an energy for and to analyse the DNA-ion system. Then, I validate my results experimentally via single-particle analysis following image collection from cryo-EM. Together, science and mathematics help us glean info about how life works, which is essential to our development of treatments for disease and for understanding how living and non-living things interact.",
+         projects: [
+            "Some things we can do include learning the fundamentals for the Calculus of Variations, applying it to simple/model problems, and/or reading a paper related to my research and reproducing the results. <br><br>Readings: <br><br>Topics in Applied Mathematics and Modeling: Concise Theory with Case Studies (Oscar Gonzalez) <br><br>Helical organization of DNA-like liquid crystal filaments in cylindrical viral capsids (Liu et al., 2022)"
+         ]
+     },
+     {
+        name: "Alex Bisnath",
+         projectTag: "Algebra, Geometry, Topology, Other",
+         researchArea: "Analysis, Geometry, Physics, Gauge Theory, QFT, String Theory",
+         website: "",
+         researchDescription: "Anything related to mathematical physics! QFT, Gauge Theory, String Theory. Differential Geometry, 3 Manifolds, Ricci Flow.",
+         projects: [
+            "The Dirac Equation, Representation Theory in Physics, The Poincare Group and its Representations, Spin / spinors, Gauge Theory, Algebraic Topology in Low Energy Physics"
+         ]
+     },
+     {
+        name: "Jia-Lin Hsu",
+         projectTag: "Geometry",
+         researchArea: "Geometry",
+         website: "",
+         researchDescription: "My research is in geometric analysis, with a primary focus on geometric flows and their applications. My past work involved using the harmonic map heat flow to study the rigidity of maps between closed manifolds by their singular values. <br><br>My interests in this area also extend to other key flows, including mean curvature flow, inverse mean curvature flow, and the Ricci flow. Beyond this, I am also interested in minimal submanifold theory and Kähler geometry.",
+         projects: [
+            "I plan to use Schoen and Yau's book, Lectures on Harmonic Maps, with a focus on its application to minimal surfaces."
+         ]
+     },
+     {
+        name: "Evan Tufte",
+         projectTag: "Analysis, Applied",
+         researchArea: "Analysis, Applied Mathematics",
+         website: "",
+         researchDescription: "I research mathematical quantum mechanics. I am interested in most topics within analysis and geometry.",
+         projects: [
+            "I am open to a wide variety of projects. Here are a couple of ideas for topics: Calculus of Variations, Chaotic Dynamics (Strogatz book), or Riemann Surfaces."
+         ]
+     },
+     {
+        name: "Sawyer Dobson",
+         projectTag: "Applied, Other",
+         researchArea: "CS Theory",
+         website: "",
+         researchDescription: "I'm studying questions quantum complexity theory, with a specific focus on topological quantum computing.",
+         projects: [
+            "Quantum computing, classical or quantum complexity theory."
+         ]
      }
-
 
     // Add more mentors as they apply
 ];
